@@ -25,9 +25,9 @@ pool:
 
 resources:
   repositories:
-    - repository: mlops-templates
-      name: Azure/mlops-templates
-      endpoint: github-connection
+    - repository: lingarocoe-mlopsv2
+      name:  WiktorMadejski/lingarocoe-mlopsv2
+      endpoint: github.com_wiktormadejski
       type: github
       ref: main #branch name
 

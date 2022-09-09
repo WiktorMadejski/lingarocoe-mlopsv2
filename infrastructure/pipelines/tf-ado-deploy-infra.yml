@@ -30,6 +30,11 @@ resources:
       endpoint: github.com_wiktormadejski
       type: github
       ref: main #branch name
+    - repository: mlops-templates
+      name:  WiktorMadejski/mlops-templates
+      endpoint: github.com_wiktormadejski
+      type: github
+      ref: main #branch name
 
 stages :
   - stage: CreateStorageAccountForTerraformState
